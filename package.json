@@ -1,5 +1,5 @@
 {
-  "name": "portfolio-v1",
+  "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,7 +8,13 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
+    "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0",
+    "react-transition-group": "^4.4.2",
+    "styled-components": "^5.3.3",
+    "swiper": "^8.0.6",
+    "uuid": "^8.3.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -19,9 +25,11 @@
   },
   "eslintConfig": {
     "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+      "wesbos"
+    ],
+    "rules": {
+      "react/prop-types": 0
+    }
   },
   "browserslist": {
     "production": [
@@ -34,5 +42,19 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.9.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.4.0",
+    "eslint-config-wesbos": "^3.0.2",
+    "eslint-plugin-html": "^6.2.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "prettier": "^2.5.1"
   }
 }
