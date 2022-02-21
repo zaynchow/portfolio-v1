@@ -7,15 +7,14 @@ export default function App() {
   return (
     <>
       <Router>
-              <NavMenu />
-              <Routes>
-                <Route path="/about" element={<About />} />
-                <Route path="/projects" element={<Projects />} />
-                <Route path="/contact" element={<Contact />} />
-                <Route path="/" element={<Home />} />
-              </Routes>
+        <NavMenu />
+        <Routes>
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/" element={<Home />} />
+        </Routes>
       </Router>
- 
     </>
   );
 }
